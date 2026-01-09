@@ -205,3 +205,28 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Environment variables
+.env
+*.env
+
+# Logs
+*.log
+logs/
+
+# Data files
+*.csv
+*.parquet
+data/processed/
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# dbt
+target/
+dbt_packages/
